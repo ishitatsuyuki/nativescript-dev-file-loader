@@ -1,6 +1,6 @@
 {
   "name": "nativescript-dev-file-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A file-loader like hook for NativeScript",
   "scripts": {
     "postinstall": "node postinstall.js",
@@ -41,6 +41,6 @@
   "bugs": {
     "url": "https://github.com/ishitatsuyuki/nativescript-dev-file-loader/issues"
   },
-  "homepage": "https://github.com/toddanglin/nativescript-dev-sass",
+  "homepage": "https://github.com/ishitatsuyuki/nativescript-dev-file-loader",
   "readmeFilename": "README.md"
 }
