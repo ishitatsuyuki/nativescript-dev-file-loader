@@ -1,0 +1,46 @@
+{
+  "name": "nativescript-dev-file-loader",
+  "version": "0.1.0",
+  "description": "A file-loader like hook for NativeScript",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "lib/before-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "keywords": [
+    "NativeScript",
+    "file-loader"
+  ],
+  "author": {
+    "name": "Tatsuyuki Ishi",
+    "email": "ishitatsuyuki@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishitatsuyuki/nativescript-dev-file-loader.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "glob": "^7.1.1",
+    "nativescript-hook": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ishitatsuyuki/nativescript-dev-file-loader/issues"
+  },
+  "homepage": "https://github.com/toddanglin/nativescript-dev-sass",
+  "readmeFilename": "README.md"
+}
